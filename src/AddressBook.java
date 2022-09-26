@@ -19,6 +19,11 @@ public class AddressBook{
         }
         return null;
     }
+
+    public void setBuddyInfoList(ArrayList<BuddyInfo> buddyInfoList) {
+        this.buddyInfoList = buddyInfoList;
+    }
+
     public static void main(String[] args){
         System.out.println("Address Book");
         BuddyInfo buddy = new BuddyInfo("Tom","Carleton","613");
